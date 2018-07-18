@@ -13,6 +13,7 @@ Description: A CLI Tool, with an aim to install Metasploit Framework Easily. Run
 Author: mogui666 <njl02@outlook.com>
 Depiction: https://mogui666.github.io/depic/msfinst
 Name: Metasploit Installer
+Sponser: iNinjas <repo@ininjas.com>
 
 Package: iconv
 Version: 1.14-1
