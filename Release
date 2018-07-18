@@ -1,0 +1,8 @@
+Origin: dorlow's repo
+Label: dorlow's repo
+Suite: unstable
+Version: 0.01
+Codename: dorlow0repo
+Architectures: iphoneos-arm
+Components: main
+Description: dorlow's Cydia Repository
