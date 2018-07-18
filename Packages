@@ -1,4 +1,22 @@
-Package: com.noahlit.msfinstaller
+
+Package: zlib
+Version: 1.2.3-1
+Architecture: iphoneos-arm
+Maintainer: Trcx <trcx528@gmail.com>
+Replaces: zlib
+Filename: ./debs/zlib_1.2.3-1_iphoneos-arm.deb
+Size: 86680
+MD5sum: 0fa141a4778fc8599d64042419206750
+SHA1: cda6e00fb5670931d78eee90644edd026a4d4d5e
+SHA256: 86e5619882a39ed87e6f96e08f1738622a04a8c528701e2409e30e7ba786e668
+Section: Libraries
+Description: A massively spiffy yet delicately unobtrusive compression library.
+Tag: role::developer
+Depiction: http://ininjas.com/forum/index.php?topic=284.0;theme=14
+Name: zlib
+Sponsor: iNinjas <repo@ininjas.com>
+
+Package: msfinstaller
 Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: mogui666 <njl02@outlook.com>
@@ -48,20 +66,3 @@ Tag: Role:: Hacker
 Depiction: http://ininjas.com/forum/index.php?topic=245;theme=14
 Name: Ruby
 Sponser: iNinjas <repo@ininjas.com>
-
-Package: zlib
-Version: 1.2.3-1
-Architecture: iphoneos-arm
-Maintainer: Trcx <trcx528@gmail.com>
-Replaces: zlib
-Filename: ./debs/zlib_1.2.3-1_iphoneos-arm.deb
-Size: 86680
-MD5sum: 0fa141a4778fc8599d64042419206750
-SHA1: cda6e00fb5670931d78eee90644edd026a4d4d5e
-SHA256: 86e5619882a39ed87e6f96e08f1738622a04a8c528701e2409e30e7ba786e668
-Section: Libraries
-Description: A massively spiffy yet delicately unobtrusive compression library.
-Tag: role::developer
-Depiction: http://ininjas.com/forum/index.php?topic=284.0;theme=14
-Name: zlib
-Sponsor: iNinjas <repo@ininjas.com>
