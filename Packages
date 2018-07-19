@@ -1,4 +1,4 @@
-Package: zlib
+Package: com.dorlow.zlib
 Version: 1.2.3-1
 Architecture: iphoneos-arm
 Maintainer: Trcx <trcx528@gmail.com>
@@ -32,7 +32,7 @@ Depiction: https://mogui666.github.io/depic/msfinst
 Name: Metasploit Installer
 Sponser: iNinjas <repo@ininjas.com>
 
-Package: iconv
+Package: com.dorlow.iconv
 Version: 1.14-1
 Architecture: iphoneos-arm
 Maintainer: BooCocky
@@ -48,11 +48,11 @@ Depiction: http://ininjas.com/forum/index.php?topic=271;theme=14
 Name: Iconv
 Sponser: iNinjas <repo@ininjas.com>
 
-Package: ruby
+Package: com.dorlow.ruby
 Version: 1.9.2-p180-1-1
 Architecture: iphoneos-arm
 Maintainer: Fenyx
-Depends: iconv, zlib
+Depends: com.dorlow.iconv, com.dorlow.zlib
 Conflicts: rubygems, com.boococky.ruby, com.boococky.rubygems, net.fenyx.mysqlgem
 Filename: ./debs/ruby_1.9.2-p180-1-1_iphoneos-arm.deb
 Size: 8050404
