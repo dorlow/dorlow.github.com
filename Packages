@@ -19,7 +19,7 @@ Package: com.dorlow.msfinstaller
 Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: mogui666 <njl02@outlook.com>
-Depends: zlib, iconv, ruby, adv-cmds, bootstrap-cmds, basic-cmds, nghttp2, curl, apt7, top, rsync, network-cmds, less, inetutils, file-cmds, diskdev-cmds, wget, nano, patch, make, iokittools, git, gawk, developer-cmds, lsof, vim, syslogcmdline
+Depends: zlib, iconv, ruby, adv-cmds, com.modmyi.libswift4, bootstrap-cmds, basic-cmds, nghttp2, curl, apt7, top, rsync, network-cmds, less, inetutils, file-cmds, diskdev-cmds, wget, nano, patch, make, iokittools, git, gawk, developer-cmds, lsof, vim, syslogcmdline
 Filename: ./debs/msfinstaller.deb
 Size: 2306
 MD5sum: e99f76ed7286f0901bc0f368761a8313
