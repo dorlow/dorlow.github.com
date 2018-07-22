@@ -22,9 +22,9 @@ Maintainer: mogui666 <njl02@outlook.com>
 Depends: zlib, iconv, ruby, adv-cmds, com.modmyi.libswift4, bootstrap-cmds, basic-cmds, nghttp2, curl, apt7, top, rsync, network-cmds, less, inetutils, file-cmds, diskdev-cmds, wget, nano, patch, make, iokittools, git, gawk, developer-cmds, lsof, vim, syslogcmdline
 Filename: ./debs/msfinstaller.deb
 Size: 2306
-MD5sum: e99f76ed7286f0901bc0f368761a8313
-SHA1: eabfd77a6e46c973b1b67831ba5cfc0c34e25dc2
-SHA256: 9001b4a9be37111691b8641931ab6c233189c948a5631766877aa507a2be6d3c
+MD5sum: d8e68ad40c89416dc726471c21ac7a03
+SHA1: 4413ca4a905d2e836f465a235e4946b68f69397c
+SHA256: 3cb582066dcb99819a47ea9c07ecb9dd5e89a33fd01a70db365788c40bde1730
 Section: Security
 Description: A CLI Tool, with an aim to install Metasploit Framework Easily. Run this command to start: "msfinstaller"
 Author: mogui666 <njl02@outlook.com>
