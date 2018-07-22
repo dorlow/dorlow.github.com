@@ -1,64 +1,53 @@
-Package: com.dorlow.zlib
-Version: 1.2.3-1
-Architecture: iphoneos-arm
-Maintainer: Trcx <trcx528@gmail.com>
-Replaces: zlib
-Filename: ./debs/zlib_1.2.3-1_iphoneos-arm.deb
-Size: 86680
-MD5sum: 0fa141a4778fc8599d64042419206750
-SHA1: cda6e00fb5670931d78eee90644edd026a4d4d5e
-SHA256: 86e5619882a39ed87e6f96e08f1738622a04a8c528701e2409e30e7ba786e668
-Section: Libraries
-Description: A massively spiffy yet delicately unobtrusive compression library. 
-Tag: role::developer
-Depiction: http://ininjas.com/forum/index.php?topic=284.0;theme=14
-Name: zlib
-Sponsor: iNinjas <repo@ininjas.com>
-
-Package: com.dorlow.msfinstaller
+Package: com.noahlit.msfinstaller
 Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: mogui666 <njl02@outlook.com>
-Depends: zlib, iconv, ruby, adv-cmds, com.modmyi.libswift4, bootstrap-cmds, basic-cmds, nghttp2, curl, apt7, top, rsync, network-cmds, less, inetutils, file-cmds, diskdev-cmds, wget, nano, patch, make, iokittools, git, gawk, developer-cmds, lsof, vim, syslogcmdline
-Filename: ./debs/msfinstaller.deb
-Size: 2306
 Section: Security
+Maintainer: mogui666 <njl02@outlook.com>
+Depends: zlib, iconv, ruby, adv-cmds, bootstrap-cmds, basic-cmds, nghttp2, curl, apt7, top, rsync, network-cmds, less, inetutils, file-cmds, diskdev-cmds, wget, nano, patch, make, iokittools, git, gawk, developer-cmds, lsof, vim, syslogcmdline
+Architecture: iphoneos-arm
+Filename: debs/msfinstaller.deb
+Size: 2440
+MD5sum: d8e68ad40c89416dc726471c21ac7a03
 Description: A CLI Tool, with an aim to install Metasploit Framework Easily. Run this command to start: "msfinstaller"
+Name: Metasploit Installer
 Author: mogui666 <njl02@outlook.com>
 Depiction: https://mogui666.github.io/depic/msfinst
-Name: Metasploit Installer
-Sponser: iNinjas <repo@ininjas.com>
 
-Package: com.dorlow.iconv
+Package: iconv
 Version: 1.14-1
-Architecture: iphoneos-arm
+Section: Development
 Maintainer: BooCocky
-Filename: ./debs/iconv_1.14-1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: debs/iconv_1.14-1_iphoneos-arm.deb
 Size: 1588498
 MD5sum: 04b8d4857ab0e8d847e69e5fec0015ed
-SHA1: 558992660df949fe275e87a688a4cefb710c4176
-SHA256: 6f308eb69f98d0e8bd503a8e6262578469cbdc78977e698285d40292212d14c6
-Section: Development
 Description: converts character strings from one character encoding to another
-Tag: Role:: Developer
-Depiction: http://ininjas.com/forum/index.php?topic=271;theme=14
 Name: Iconv
-Sponser: iNinjas <repo@ininjas.com>
+Depiction: http://ininjas.com/forum/index.php?topic=271;theme=14
 
-Package: com.dorlow.ruby
+Package: ruby
 Version: 1.9.2-p180-1-1
-Architecture: iphoneos-arm
+Section: Scripting
 Maintainer: Fenyx
 Depends: iconv, zlib
 Conflicts: rubygems, com.boococky.ruby, com.boococky.rubygems, net.fenyx.mysqlgem
-Filename: ./debs/ruby_1.9.2-p180-1-1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: debs/ruby_1.9.2-p180-1-1_iphoneos-arm.deb
 Size: 8050404
 MD5sum: 33cd9ae091588e1e2acdd611c758f7e4
-SHA1: 71c7a509211b34765f4fb879c2c9ca6f33854a34
-SHA256: ee97c914c87aa69aaa45472705b2fa9a37517ab7e8dae006dbf4f4af99cce716
-Section: Scripting
 Description: Ruby 1.9.2-p180 and RubyGems, includes the Mysql Gem.
-Tag: Role:: Hacker
-Depiction: http://ininjas.com/forum/index.php?topic=245;theme=14
 Name: Ruby
-Sponser: iNinjas <repo@ininjas.com>
+Depiction: http://ininjas.com/forum/index.php?topic=245;theme=14
+
+Package: zlib
+Version: 1.2.3-1
+Section: Libraries
+Maintainer: Trcx <trcx528@gmail.com>
+Replaces: zlib
+Architecture: iphoneos-arm
+Filename: debs/zlib_1.2.3-1_iphoneos-arm.deb
+Size: 86680
+MD5sum: 0fa141a4778fc8599d64042419206750
+Description: A massively spiffy yet delicately unobtrusive compression library.
+Name: zlib
+Depiction: http://ininjas.com/forum/index.php?topic=284.0;theme=14
+
