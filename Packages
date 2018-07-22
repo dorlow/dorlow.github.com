@@ -10,7 +10,7 @@ MD5sum: c1fd44148639e70d5475d62a186f2210
 Description: A CLI Tool, with an aim to install Metasploit Framework Easily. Run this command to start: "msfinstaller"
 Name: Metasploit Installer
 Author: mogui666 <njl02@outlook.com>
-Depiction: https://mogui666.github.io/depic/msfinst
+Depiction: https://dorlow.github.io/depic/metasploit-installer/
 
 Package: iconv
 Version: 1.14-1
